@@ -39,7 +39,7 @@ cluster_name = "<uniqueClusterName>"
 aws_ssh_key_name = "<nameOfAWSKeyPair>"
 # To create a new ssh key run ssh-keygen -f /tmp/spectrokey , then copy the contents of spectro.pub  
 # for more info on creating ssh keys see: https://www.ssh.com/academy/ssh/keygen
-aws_key_pair = "<yourPublicKey>
+aws_key_pair = "<yourPublicKey>"
 
 # Enter the AWS Region and AZ for cluster resources
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions
