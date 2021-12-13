@@ -33,9 +33,6 @@ variable "sc_project_name" {
 }
 
 
-variable "aws_access_key_ID" {}
-variable "aws_secret_access_key" {}
-
 provider "spectrocloud" {
   host         = var.sc_host
   username     = var.sc_username
