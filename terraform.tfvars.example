@@ -20,8 +20,8 @@ sc_project_name = "Default"
 # https://docs.spectrocloud.com/clusters/?clusterType=aws_cluster#awscloudaccountpermissions
 # If following along with an Istruqt lab the keys are created by Instruqt with proper permissions
 
-#aws_access_key = "export AWS_ACCESS_KEY_ID=<yourAWSaccessKeyID>"
-#aws_secret_key = "export AWS_SECRET_ACCESS_KEY=<yourAWSsecretAccessKey>"
+#aws_access_key_id = "export TF_VAR_aws_access_key_id=<yourAWSaccessKeyID>"
+#aws_secret_access_key = "export TF_VAR_aws_secret_access_key=<yourAWSsecretAccessKey>"
 cluster_cloud_account_name = "<unique-cloud-account-name>"
 
 # Spectro Cloud Palette profile 
