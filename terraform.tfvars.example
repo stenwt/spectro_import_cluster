@@ -8,8 +8,8 @@
 # The Spectro Cloud provider works for the SaaS offering as well as private install
 # If using a private install provide the dns name of your on-prem Palette enviroment 
 sc_host         = "api.spectrocloud.com" 
-#sc_username     = "set with: export TF_VAR_sc_username=<yourUserName>"
-#sc_password     = "set with: export TF_VAR_sc_password=<yourPassword>"
+#sc_username     = "set with: export TF_VAR_sc_username=yourUserName"
+#sc_password     = "set with: export TF_VAR_sc_password=yourPassword"
 
 # Spectro Cloud can manage Kubernetes clusters in separate projects that help support multitenancy  and RBAC
 # There is a default project named "Default" this can be used for testing and training 
@@ -20,26 +20,26 @@ sc_project_name = "Default"
 # https://docs.spectrocloud.com/clusters/?clusterType=aws_cluster#awscloudaccountpermissions
 # If following along with an Istruqt lab the keys are created by Instruqt with proper permissions
 
-#aws_access_key_id = "export TF_VAR_aws_access_key_id=<yourAWSaccessKeyID>"
-#aws_secret_access_key = "export TF_VAR_aws_secret_access_key=<yourAWSsecretAccessKey>"
-cluster_cloud_account_name = "<unique-cloud-account-name>"
+#aws_access_key_id = "export TF_VAR_aws_access_key_id=yourAWSaccessKeyID"
+#aws_secret_access_key = "export TF_VAR_aws_secret_access_key=yourAWSsecretAccessKey"
+cluster_cloud_account_name = "unique-cloud-account-name"
 
 # Spectro Cloud Palette profile 
 
-cluster_profile_name = "<unique-cluster-profile-name>"
-cluster_profile_description = "<brief-description-of-profile>"
+cluster_profile_name = "unique-cluster-profile-name"
+cluster_profile_description = "brief-description-of-profile"
 cluster_provile_tags = ["example:tag1", "example:tag2"]
 cloud = "aws"
 type = "cluster"
 
-cluster_name = "<unique-cluster-name>"
+cluster_name = "unique-cluster-name"
 
 # Existing SSH Key in AWS
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
-aws_ssh_key_name = "<nameOfAWSKeyPair>"
+aws_ssh_key_name = "nameOfAWSKeyPair"
 # To create a new ssh key run ssh-keygen -f /tmp/spectrokey , then copy the contents of spectro.pub  
 # for more info on creating ssh keys see: https://www.ssh.com/academy/ssh/keygen
-aws_key_pair = "<yourPublicKey>"
+aws_key_pair = "yourPublicKey"
 
 # Enter the AWS Region and AZ for cluster resources
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions
