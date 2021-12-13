@@ -20,19 +20,19 @@ sc_project_name = "Default"
 # https://docs.spectrocloud.com/clusters/?clusterType=aws_cluster#awscloudaccountpermissions
 # If following along with an Istruqt lab the keys are created by Instruqt with proper permissions
 
-#aws_access_key = "export TF_VAR_aws_access_key=<yourAWSaccessKey>"
-#aws_secret_key = "export TF_VAR_aws_secret_key=<yourAWSsecretKey>"
-cluster_cloud_account_name = "<uniqueCloudAccountName>"
+#aws_access_key = "export AWS_ACCESS_KEY_ID=<yourAWSaccessKeyID>"
+#aws_secret_key = "export AWS_SECRET_ACCESS_KEY=<yourAWSsecretAccessKey>"
+cluster_cloud_account_name = "<unique-cloud-account-name>"
 
 # Spectro Cloud Palette profile 
 
-cluster_profile_name = "<uniqueClusterProfileName>"
-cluster_profile_description = "<briefDescriptionOfProfile>"
+cluster_profile_name = "<unique-cluster-profile-name>"
+cluster_profile_description = "<brief-description-of-profile>"
 cluster_provile_tags = ["example:tag1", "example:tag2"]
 cloud = "aws"
 type = "cluster"
 
-cluster_name = "<uniqueClusterName>"
+cluster_name = "<unique-cluster-name>"
 
 # Existing SSH Key in AWS
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
