@@ -13,7 +13,7 @@ variable "aws_key_pair" {
 #Cluster Profile
 variable "cluster_profile_name" {}
 variable "cluster_profile_description" {}
-variable "cluster_provile_tags" {}
+variable "cluster_profile_tags" {}
 variable "cloud" {}
 variable "type" {}
 
