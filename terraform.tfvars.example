@@ -28,7 +28,7 @@ cluster_cloud_account_name = "unique-cloud-account-name"
 
 cluster_profile_name = "unique-cluster-profile-name"
 cluster_profile_description = "brief-description-of-profile"
-cluster_provile_tags = ["example:tag1", "example:tag2"]
+cluster_profile_tags = ["example:tag1", "example:tag2"]
 cloud = "aws"
 type = "cluster"
 
