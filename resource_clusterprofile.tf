@@ -6,10 +6,10 @@
 
 # # Example of a Basic add-on profile
 # resource "spectrocloud_cluster_profile" "cp-addon-aws" {
-#   name        = "cp-basic"
-#   description = "basic cp"
-#   cloud       = "aws"
-#   type        = "add-on"
+#   name        = var.cluster_profile_name
+#   description = var.cluster_profile_description
+#   cloud       = var.cloud
+#   type        = var.type
 #   pack {
 #     name = "spectro-byo-manifest"
 #     tag  = "1.0.x"
@@ -60,9 +60,9 @@ data "spectrocloud_pack" "ubuntu" {
 resource "spectrocloud_cluster_profile" "profile" {
   name        = var.cluster_profile_name
   description = var.cluster_profile_description
-  tags        = ["department:se", "owner:vinnie"]
-  cloud       = "aws"
-  type        = "cluster"
+  tags        = var.cluster_profile_tags
+  cloud       = var.cloud
+  type        = var.type
 
 
 pack {
