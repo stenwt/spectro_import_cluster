@@ -24,19 +24,19 @@ sc_project_name = "Default"
 #aws_secret_access_key = "export TF_VAR_aws_secret_access_key=yourAWSsecretAccessKey"
 
 # names must be lowercase letters, numbers, and dashes only
-cluster_cloud_account_name = "unique-cloud-account-name" 
+cluster_cloud_account_name = "unique-cloud-account"
 
 # Spectro Cloud Palette profile 
 # names must be lowercase letters, numbers, and dashes only
 
-cluster_profile_name = "unique-cluster-profile-name"
+cluster_profile_name = "unique-cluster-profile"
 cluster_profile_description = "brief-description-of-profile"
 cluster_profile_tags = ["example:tag1", "example:tag2"]
 cloud = "aws"
 type = "cluster"
 
 # names must be lowercase letters, numbers, and dashes only
-cluster_name = "unique-cluster-name"
+cluster_name = "unique-cluster"
 
 # Existing SSH Key in AWS
 # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html
